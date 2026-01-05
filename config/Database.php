@@ -3,7 +3,6 @@ class Database {
     private $host = "localhost";
     private $db_name = "inventaflow_db";
     private $username = "root";
-    private $password = "";
     public $conn;
 
     public function getConnection() {
